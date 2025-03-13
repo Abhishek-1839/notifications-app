@@ -10,3 +10,15 @@ const withPWA = require("next-pwa")({
   });
   
   module.exports = nextConfig;
+
+  module.exports = {
+    images: {
+      domains: ['lively-flan-c48ed1.netlify.app'], // Add your Netlify domain
+    },
+  }
+  module.exports = {
+    experimental: {
+      runtime: "nodejs",
+    },
+  };
+  
