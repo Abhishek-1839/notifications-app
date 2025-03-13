@@ -33,9 +33,9 @@ export default function Home() {
       <button onClick={subscribeUser} className="subscribe-btn">
         Subscribe to Notifications
       </button>
-      <button onClick={sendNotification} className="notify-btn">
+      {/* <button onClick={sendNotification} className="notify-btn">
         Send Notification
-      </button>
+      </button> */}
     </div>
   );
 }
