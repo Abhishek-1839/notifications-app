@@ -16,6 +16,7 @@ export async function subscribeUser() {
       const registration = await navigator.serviceWorker.ready;
       const existingSubscription = await registration.pushManager.getSubscription();
       if (existingSubscription) {
+        alert("You are already subscribed to notifications.");
         await existingSubscription.unsubscribe();
       }
   
